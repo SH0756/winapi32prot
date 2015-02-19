@@ -16,9 +16,7 @@ HINSTANCE   hInst;          //インスタンスハンドル
 /*-----------------------------------------------------------------------------
 メインダイアログプロシージャ
 -----------------------------------------------------------------------------*/
-LRESULT CALLBACK mainDlgProc(HWND hWnd, UINT uMessage, WPARAM wParam, LPARAM lParam)
-{
-
+LRESULT CALLBACK mainDlgProc(HWND hWnd, UINT uMessage, WPARAM wParam, LPARAM lParam){
 	switch (uMessage){
 		//ウインドウ作成時の処理
 	case WM_INITDIALOG:
